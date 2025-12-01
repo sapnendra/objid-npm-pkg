@@ -15,7 +15,7 @@ A tiny, secure, URL-friendly unique ID generator for JavaScript.
 ## Installation
 
 ```bash
-npm install objid
+npm install objid-js
 ```
 
 ## Usage
@@ -24,10 +24,10 @@ npm install objid
 
 ```javascript
 // ES Modules
-import { objid } from 'objid';
+import { objid } from 'objid-js';
 
 // CommonJS
-const { objid } = require('objid');
+const { objid } = require('objid-js');
 
 // Generate a default 21-character ID
 const id = objid();
@@ -41,7 +41,7 @@ console.log(shortId); // e.g., "IRFa-VaZo2"
 ### Custom Alphabet
 
 ```javascript
-import { objid } from 'objid';
+import { objid } from 'objid-js';
 
 // Create a custom generator with numeric alphabet
 const numericId = objid.customAlphabet('0123456789', 10);

@@ -1,5 +1,5 @@
 {
-  "name": "objid",
+  "name": "objid-js",
   "version": "1.0.0",
   "description": "A tiny, secure, URL-friendly unique ID generator for JavaScript",
   "main": "index.js",
@@ -28,7 +28,7 @@
     "random",
     "url-friendly"
   ],
-  "author": "",
+  "author": "objid-js",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.10.1",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sapnendra/objid-npm-pkg"
   }
 }

@@ -1,0 +1,61 @@
+# Testing
+test/
+test-local/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+*.lcov
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (keep README.md and LICENSE)
+SETUP.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Config files (keep package.json, but exclude dev configs)
+tsconfig.json
+vitest.config.js
+.eslintrc*
+.prettierrc*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (will be installed by users)
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+

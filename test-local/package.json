@@ -1,0 +1,15 @@
+{
+  "name": "objid-test",
+  "version": "1.0.0",
+  "description": "Local test project for objid package",
+  "type": "module",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "test-cjs": "node test-cjs.js"
+  },
+  "dependencies": {
+    "objid": "file:.."
+  }
+}
+

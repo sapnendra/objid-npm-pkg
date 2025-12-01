@@ -1,4 +1,4 @@
-# objid
+# objid-js
 
 A tiny, secure, URL-friendly unique ID generator for JavaScript.
 
